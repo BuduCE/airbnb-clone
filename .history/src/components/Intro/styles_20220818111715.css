@@ -1,0 +1,34 @@
+.intro{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 36px;
+}
+.photo-grid{
+    width: 70%;
+    margin: auto;
+    padding: 26px 77px;
+}
+/* .intro-txt{
+    width: 60%;
+    text-align: left;
+    padding: 36px;
+} */
+h1{
+    /* width: 60%; */
+    font-weight: 600;
+    font-size: 8rem;
+    height: 40px;
+}
+p{
+    width: 55%;
+    font-weight: 300;
+    font-size: 3.5rem;
+}
+
+@media screen and (max-width: 764px){
+    .photo-grid{
+        width: 80%;
+        padding: 26px 10px;
+    }
+}

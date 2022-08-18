@@ -1,0 +1,27 @@
+.intro{
+    display: flex;
+    flex-direction: column;
+    /* padding: 26px 78px 26 36px; */
+}
+.intro-img{
+    w80
+    /* margin: auto; */
+    /* padding: 26px ; */
+}
+.photo-grid{
+    padding: 26px 77px;
+}
+.intro-txt{
+    width: 60%;
+    text-align: left;
+    padding: 36px;
+}
+.intro-txt > h1{
+    font-weight: 600;
+    font-size: 36px;
+}
+.intro-txt > p{
+    width: 30%;
+    font-weight: 300;
+    font-size: 16px;
+}
