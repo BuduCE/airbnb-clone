@@ -1,0 +1,7 @@
+.services{
+    display: flex;
+    flex
+}
+.services > p > span{
+    font-weight: bold;
+}

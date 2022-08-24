@@ -1,0 +1,16 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    width: 175px;
+    font-size: 0.5rem;
+    text-align: left;
+}
+.services > img{
+    /* width: 100%; */
+}
+.services > p{
+    font-size: 0.5rem;
+}
+.services > p > span{
+    font-weight: bold;
+}

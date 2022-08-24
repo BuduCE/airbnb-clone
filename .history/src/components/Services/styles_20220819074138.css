@@ -1,0 +1,14 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font-size: 2rem;
+    text-align: left;
+    padding: 38px 37px;
+}
+.services > p{
+    font-size: 2rem;
+}
+.services > p > span{
+    font-weight: bold;
+}

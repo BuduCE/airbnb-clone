@@ -1,0 +1,6 @@
+.services{
+    
+}
+.services > p > span{
+    font-weight: bold;
+}

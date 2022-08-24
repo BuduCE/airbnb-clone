@@ -1,0 +1,9 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    width: 175px;
+    
+}
+.services > p > span{
+    font-weight: bold;
+}

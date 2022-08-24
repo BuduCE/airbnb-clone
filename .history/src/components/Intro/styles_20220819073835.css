@@ -1,0 +1,53 @@
+.intro{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 36px;
+}
+.photo-grid{
+    width: 70%;
+    margin: auto;
+    padding: 26px 77px;
+}
+.intro > h1{
+    font-weight: 600;
+    font-size: 8rem;
+    height: 40px;
+}
+.intro > p{
+    width: 55%;
+    font-weight: 300;
+    font-size: 3.5rem;
+}
+
+@media screen and (max-width: 1135px){
+    .photo-grid{
+        width: 80%;
+        padding: 5px 5px;
+    }
+    .intro > h1{
+        font-size: 2rem;
+    }
+    .intro > p{
+        width: 60%;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 764px){
+    .intro{
+        text-align: center;
+    }
+    .photo-grid{
+        width: 100%;
+        padding: 5px 5px;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    p{
+        width: 80%;
+        margin: auto;
+        font-size: 1.5rem;
+    }
+}
